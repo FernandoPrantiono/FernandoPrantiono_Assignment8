@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="map.html">Map</a>
+    </nav>
+
+    <!-- ========== MAIN ========== -->
+    <hr>
+    <main>
+        <h1>Urban Catalyst: Strategi Optimalisasi Micro-TOD melalui Integrasi Ritel pada jalur Trans Manado</h1>
+        <hr>
+
+         <!-- Informasi Proyek -->
+        <p> <strong>Pendahuluan:</strong>
+            Penelitian ini mengusulkan startegi <i>“Urban Catalyst”</i> melalui konsep <u>Micro-TOD</u>
+            , yaitu mengintegrasikan fungsi transportasi dengan ruang ritel pada shelter bus untuk jalur 
+            koridor 1 yang melewati wilayah pesisir Kota Manado. Menggunakan analisis berbasis GIS, studi ini 
+            bertujuan mengidentifikasi titik shelter potensial pada yang mampu mengoptimalkan keterbatasan 
+            lahan sekaligus menjadi penggerak ekonomi lokal yang inlusif. 
+            <br><br>
+            Pertumbuhan penduduk dan peningkatan ekonomi di Kota Manado menuntut sistem 
+            transportasi yang efisien dan terintegrasi. Hal ini selaras dengan <strong>Perda No.1 Tahun 2014 (RTRW 
+            Manado 2014 - 2034)</strong> yang menetapkan arah kebijakan untuk membangun, mengembangkan, dan 
+            meningkatkan fungsi terminal-terminal transportasi darat sebagai bagian dari pengembangan 
+            keparawisataan, serta membangun sistem sirkulasi pelayanan perkotaan yang terintegrasi dan terpadu 
+            dengan wilayah sekitarnya. 
+            <br><br>
+            Pada tanggal <em>19 November 2025</em> Pemerintah Kota Manado meresmikan 
+            operasional Bus Trans Manado dan mulai beroperasi pada tanggal <em>29 November 2025</em>. Hal ini 
+            menjadi langkah strategis modernisasi transportasi di pusat ekonomi pesisir. Namun, pesatnya 
+            pertumbuhan aktivitas di koridor ini menciptakan tantangan baru berupa keterbatasan lahan komersial 
+            di titik-titik strategis. Infrastruktur penunjang seperti shelter bus saat ini masih berfungsi pasif, hanya 
+            sebagai tempat tunggu tanpa memberikan nilai tambah ekonomi maupun kenyamanan maksimal bagi 
+            pengguna wisatawan.
+        </p>
+
+        <hr>
+
+        <p> <strong>Rumusan Masalah:</strong>
+            Bagaimana analisis spasial sebaran titik bus stop Trans Manado Koridor 1 terhadap kosentrasi 
+            kepadatan penduduk guna menentukan titik jangkauan layanan (catchment area) yang paling 
+            optimal bagi pengembangan unit komersial? 
+            <br><br>
+            <strong>Tujuan:</strong>
+            Menganalisis sebaran spasial bus stop Trans Manado Koridor 1 berdasarkan kepadatan 
+            penduduk untuk mengidentifikasi titik jangkauan layanan (catchment area) yang paling 
+            potensial bagi pengembangan unit komersial. 
+        </p>
+        <hr>
+
+        <h2>Data yang Digunakan:</h2>
+        <table border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Jenis Data</th>
+                    <th>Sumber</th>
+                    <th>Tahun</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><b>Populasi</b></td>
+                    <td>WorldPop</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><b>Bus Stop</b></td>
+                    <td>Api Overpass Turbo</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><b>Batas Administrasi Kota Manado</b></td>
+                    <td>BIG</td>
+                    <td>2023</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+
+        <h2>Metodologi</h2>
+        
+        <ol>
+            <li>Pengumpulan Data</li>
+            <li>Input Data</li>
+            <li>Akuisisi Data</li>
+            <li>Analisis Data</li>
+        </ol>
+
+        <img src="Chart.png" alt="Flow Chart" width="500">
+
+        <h2>Form Kontak</h2>
+        <form>
+            <!-- Input text -->
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama"><br><br>
+            
+            <!-- Input email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="email@contoh.com"><br><br>
+            
+            <!-- Textarea -->
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" cols="40" placeholder="Tulis pesan Anda..."></textarea><br><br>
+            
+            <!-- Radio button -->
+            <label>Tujuan:</label><br>
+            <input type="radio" id="info" name="tujuan" value="info">
+            <label for="info">Mencari Informasi </label><br>
+            <input type="radio" id="kerjasama" name="tujuan" value="kerjasama">
+            <label for="kerjasama">Kerjasama</label><br><br>
+            
+            <!-- Checkbox -->
+            <input type="checkbox" id="salin" name="salin" value="salin">
+            <label for="salin">Kirim salinan ke email saya</label><br><br>
+            
+            <!-- Tombol -->
+            <input type="submit" value="Kirim">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <p>@ 2026 Feno - Task8 HTML</p>
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="map.html">Map</a>  
+        </p>
+    </footer>
+
+</body>
+</html>
+
+
+
+

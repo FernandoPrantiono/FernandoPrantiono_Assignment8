@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Map</title>
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="map.html">Map</a>
+    </nav>
+    <hr>
+
+    <!-- ========== MAIN ========== -->
+    <main>
+        <h1>Peta Hasil Analisis Spasial</h1>
+        
+        <hr>
+         <h2><u>Peta Analisis Spasial Jangkauan Pelayanan (Catchment Area) Bus Stop Koridor 1 Trans Manado</u></h2>
+        
+        <img src="Peta1.png" alt="Peta Hasil Analisis" width="800">
+        
+        </p><i> Peta menunjukan bahwa koridor transportasi ini 
+                melintasi zona dengan densitas penduduk tinggi yang direpresentasikan oleh piksel bewarna Cyan 
+                terang pada peta.Melalui metode buffering sejauh 400 meter (radius hijau), telah diidentifikasi titik-titik 
+                dengan potensi pasar (footfall) paling optimal untuk pengembangan unit komersial. Beberapa lokasi 
+                potensial yang memiliki jangkauan populasi signifikan meliputi area RSU GMIM Pancaran Kasih 
+                (5.862 jiwa), Depan Gereja GMIM Abraham Sario (5.769 jiwa), dan Katedral Hati Tersuci Maria 
+                (5.185 jiwa). 
+        </i></p>
+        <hr>
+        
+        <h3>Legenda:</h3>
+        <ul>
+            <li><b>Warna Cyan</b> - Kepadatan Penduduk Tinggi</li>
+            <li><b>Buffer Hijau</b> - Jangkauan Halte (400m)</li>
+            <li><b>Titik Merah</b> - Lokasi Bus Stop</li>
+        </ul>
+        
+        <h3>Bus Stop dengan Potensi Tertinggi:</h3>
+        <ol>
+            <li><b>RSU GMIM Pancaran Kasih</b> - 5.862 Jiwa</li>
+            <li><b>Depan Gereja GMIM Abraham Sario</b> - 5.769 Jiwa</li>
+            <li><b>Katedral Hati Tersuci Maria</b> - 5.185 Jiwa</li>
+        </ol>
+        
+        <hr>
+        
+        <h2><u>Data Bus Stop</u></h2>
+        
+        <table border="1" cellpadding="8">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Halte</th>
+                    <th>Jumlah Penduduk</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><b>RSU GMIM Pancaran Kasih</b></td>
+                    <td>5.862 jiwa</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><b>Depan Gereja GMIM Abraham Sario</b></td>
+                    <td>5.769 jiwa</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><b>Katedral Hati Tersuci Maria</b></td>
+                    <td>5.185 jiwa</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <hr>
+        
+        <h2><u>Komentar tentang Peta</u></h2>
+        
+        <form>
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama"><br><br>
+            
+            <label for="komentar">Komentar:</label><br>
+            <textarea id="komentar" name="komentar" rows="4" cols="50" placeholder="Tulis komentar Anda..."></textarea><br><br>
+            
+            <input type="submit" value="Kirim">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+    
+    <hr>
+    
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <p>@ 2026 Feno - Task8 HTML</p>
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="map.html">Map</a>
+        </p>
+    </footer>
+
+</body>
+</html>
